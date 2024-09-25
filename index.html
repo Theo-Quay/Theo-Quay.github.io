@@ -24,48 +24,53 @@
     <h2>Projects</h2>
   
     <article class="project">
-      <h3><a href="https://github.com/Theo-D-Q/sentinel-unsupervised-segmentation-Earth">Satellite imagery unsupervised segmentation mapping - 2024</a></h3>
-      <p>In this project, an unsupervised learning model developed by Saha et al, 2022, was used to create segmentation maps of Earth sentinel-2 satellite imagery.
-        The goal of this project was to create a python pipeline integrating the process of requesting and downloading satellite imagery from the sentinelhub API, with the segmentation of said images using an unsupervised learning program developed previously.
-        While Saha's model was orignally developed with RGB imagery in mind, my code allows for easier investigation on how changing the sentinel-1 & 2 bands the model runs on can affect how the image in segmented.
-        This project was done in collaboration with W. Hamish Mitchell (whamitch@mit.edu) and Gaia Stucky de Quay (gaias@mit.edu) through MIT.</p>
-      <p><strong>Technologies:</strong> Python, Machine Learning, APIs</p>
+      <h3><a href="https://github.com/Theo-Quay/sentinel-unsupervised-segmentation-Earth">Satellite imagery unsupervised segmentation mapping - 2024</a></h3>
+      <p>Understanding the Earth's surface is vital to udnerstadning the planet, and this involves the identificationa and classification of features.
+        In this project, an unsupervised single-scene learning model developed by Saha et al, 2022, was used to create segmentation maps of Earth sentinel-2 satellite imagery.
+        The project was a continuation of previous work done by Hamish Mitchell's group (whamitch@mit.edu) in training unsupervised learning models on Mars satellite imagery. I created a pipeline in python integrating the process of requesting and downloading satellite imagery with Sentinel Hub API, with the segmentation of said images using the unsupervised learning model mentioned previously.
+        While Saha's model was originally developed with RGB imagery in mind, my code allows for easier investigation on how changing the number and type of sentinel-1 & 2 bands the model runs on can affect how the image is segmented and what features are identified and separated. This was confirmed via tests using MIT SuperCloud.
+        The pipeline will allow for memebrs of Hamish and Gaia's teams to easily anaylse Earth satellite imagery using single-scene segmentation models, regardless of the kind of observation satellite data and self-supervised model beign used, or geographical/urban features being categorised.
+        This project was done in collaboration with W. Hamish Mitchell and Gaia Stucky de Quay (gaias@mit.edu) through MIT.
+        <b>References: <a href="https://ieeexplore.ieee.org/document/9773162">Saha <i>et al</i>, 2022</a>
+      </p>
+      <p><strong>Topics:</strong> Python, Machine Learning, APIs</p>
       <img src="\death_valley_small_rgp.png" alt="RGB image of alluvial fan in Death Valley, California" width="380" height="400" style="display:inline-block;"/>
       <img src="\large_fan_test_sent1VV_sent2R_sent2G_sent2B_ff6_ps112.png" alt="Segmentation map produced when the RGB bands, algonside a sentinel-1 IW band, were used to run our model" width="380" height="400" style="display:inline-block;"/>
-      <figcaption>Fig: Segmentation map produced when the RGB bands, algonside a sentinel-1 IW band, were used to run our model</figcaption>
+      <figcaption>Left: RGB satellite image of allluvial fan in Death Valley, California; Right: Segmentation map produced when the RGB bands, algonside a sentinel-1 IW band, were used to run our model</figcaption>
     </article>
 </section>
 
 <section id="research">
     <h2>Research</h2>
-    <h2>Vacancy-ordered Double Perovskites - 2023</h2>
+    <h3>Vacancy-ordered Double Perovskites - 2023</h3>
   
     <article class="research">
       <h3></h3>
-      <p>My research at entailed the analysis of x-ray degradation of lead-free halide perovskites with applications in optoelectronics using various analytical techniques. The aim of this research was to expand on Robert Palgrave’s group’s knowledge on halide perovskites, specifically A<sub>2</sub>BX<sub>6</sub> vacancy ordered double perovskites, under the guidance of Prajna Bhatt (PhD student) and Anna Regoutz (Professor, placement supervisor). 
+      <p>My research at UCL entailed the analysis of x-ray degradation of lead-free halide perovskites with applications in optoelectronics using various analytical techniques. The aim of this research was to expand on Robert Palgrave's group's knowledge on halide perovskites, specifically A<sub>2</sub>BX<sub>6</sub> vacancy ordered double perovskites, under the guidance of Prajna Bhatt (PhD student) and Anna Regoutz (Professor, placement supervisor). 
         In my eight weeks at the UCL Chemistry Department, I was able to:
         <ul>
-          <li>synthesise and obtain brand-new crystallographic data for triclinic FA<sub>2</sub>SnBr<sub>6</sub> using PXRD;</li>
-          <li>b) synthesise cubic-phase (NH<sub>4</sub>)<sub>2</sub>SnBr<sub>6</sub>;</li>
-          <li>c) create a phase series between both crystals by doping FA (FA =  HCN<sub>2</sub>H<sub>4</sub><sup>+</sup>) into the (NH<sub>4</sub>)<sub>2</sub>SnBr<sub>6</sub> structure;</li>
-          <li>d) use XPS to measure the analytical doping percentages of the aforementioned series;</li>
-          <li>e) measure direct and indirect band gaps for the substances synthesised;</li>
-          <li>f) collect x-ray radiation damage data on certain samples.</li>
-          <li>Overall, this research opportunity significantly developed my skills as an inorganic and analytical chemist. It expanded my knowledge on crystallography, band gap theory, analytical techniques and more.</li>
-          <li>This research was made possible by the ACTF undergraduate research bursary. </li>
+          <li>Synthesise and obtain brand-new crystallographic data for triclinic FA<sub>2</sub>SnBr<sub>6</sub> using PXRD;</li>
+          <li>Synthesise cubic-phase (NH<sub>4</sub>)<sub>2</sub>SnBr<sub>6</sub>;</li>
+          <li>Create a phase series between both crystals by doping FA (FA =  HCN<sub>2</sub>H<sub>4</sub><sup>+</sup>) into the (NH<sub>4</sub>)<sub>2</sub>SnBr<sub>6</sub> structure;</li>
+          <li>Use XPS to measure the analytical doping percentages of the aforementioned series;</li>
+          <li>Measure direct and indirect band gaps for the substances synthesised;</li>
+          <li>Collect x-ray radiation damage data on our doped series, using .</li>
+        Overall, this research opportunity significantly developed my skills as an inorganic and analytical chemist. It expanded my knowledge on crystallography, band gap theory, analytical techniques and more.
+        Moreover, I had the unique opportunity to spend 2 days undertaking XPS measurements with members of Anna's team at the Diamond Light Source synchrotron. This was the highlight of the placement, as I was able to assist in high-impact chemical analysis of thin-film samples at  a fantastic scientific institution.
+        <br>This research was made possible by the ACTF undergraduate research bursary.
         </ul>
       </p>
       <p><strong>Topics:</strong>Materials Chemistry, Analytical Chemistry, Optoelectronics, Green Technologies, Thin Films</p>
       <img src="Picture1.png" alt="N 1s peaks for our doped series. Our nominal doping percentages refer to NH<sub>4</sub> in the FA<sub>2</sub>SnBr<sub>6</sub> sample. " width="500" height="500" />
-      <figcaption>Fig: N 1s peaks for our doped series</figcaption>
+      <figcaption>Fig: N 1s peaks for our doped series. Our nominal doping percentages refer to NH4 in the FA2SnBr6 sample.</figcaption>
     </article>
   </section>
 
   <section id="contacts">
-    <h2>Contacts</h2>  
+    <h3>Contacts</h3>  
   
     <article class="contacts">
       <p>Work mobile: +44 75 181 532 39
-        \nEmail: theo.quay.21@ucl.ac.uk
+      <br>Email: theo.quay.21@ucl.ac.uk
       </p>
     </article>
